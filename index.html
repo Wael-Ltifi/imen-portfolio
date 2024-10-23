@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Imen Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <img src="pic/logo.png" class="logo">
+
+            <ul>
+                
+                <li><a href="#" id="about-link">ABOUT</a></li>
+                <li><a href="#" id="skills-link">SKILLS</a></li>
+                <li><a href="#" id="work-link">MY WORKS</a></li>
+                <li><a href="#" id="contact-link">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="About" id="about-content">
+        <div class="info">
+            <h3>Hi, I'm <span>Imen Yaakoubi</span>.</h3>
+            <h1><span>C</span>ontent <span>C</span>reator</h1>
+            <h3>Marketing Agent and UI Designer from Tunis,Tunisia. 
+                I create <br> websites and Marketing plans to do businesses and online <br> content.</h3>
+                <a href="#">Hire Me</a>
+        </div>
+
+        <div class="image">
+            <img src="pic/girl.png" class="girl">
+        </div>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/iman-yakoubi-b92608202/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </div>
+    
+    
+
+    <div id="contact-section" class="hidden">
+        <h1>Let's get in touch!</h1>
+        <form id="contact-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    
+        <div class="contact-info">
+            <p>Address: Tunis - Passage</p>
+            <p>Phone Number: 52 197 679</p>
+            <p>Email: imenyakoubi@gmail.com</p>
+        </div>
+    </div>
+    
+
+
+    <div id="skills-section" class="hidden">
+        <img src="pic/skills.png" alt="Skills" class="skills-image">
+    </div>
+
+
+    <div id="work-section" class="hidden">
+        <div class="work-container">
+            <div class="work-box">
+                <a href="link1.html">
+                    <h3>Project 1</h3>
+                    <img src="pic/project 1.jpg" alt="Work 1" class="work-image">
+                </a>
+            </div>
+            <div class="work-box">
+                <a href="link2.html">
+                    <h3>Project 2</h3>
+                    <img src="pic/project 2.jpg" alt="Work 2" class="work-image">
+                </a>
+            </div>
+            <div class="work-box">
+                <a href="link3.html">
+                    <h3>Project 3</h3>
+                    <img src="pic/project 3.jpg" alt="Work 3" class="work-image">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+
+</div>
+   
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
