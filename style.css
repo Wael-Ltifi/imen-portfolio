@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    height: 100vh; /* Full height of the viewport */
+    background: url(pic/bg.jpg) no-repeat center center fixed; /* Center and fix the background */
+    background-size: cover; /* Ensure it covers the entire body */
+   
+}
+
 .main{
     width: 100%;
     background: url(pic/bg.jpg);
